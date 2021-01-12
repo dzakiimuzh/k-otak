@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAC;EACJ,gBAAgB,EAAE,OAAO;EACzB,MAAM,EAAE,MAAM;EACd,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,IAAI;CAQd;;AANG,MAAM,EAAE,SAAS,EAAE,KAAK;EAN5B,AAAA,OAAO,CAAC;IAQA,MAAM,EAAE,KAAK;GAIpB",
+    "sources": [
+        "../sass/section.scss"
+    ],
+    "names": [],
+    "file": "section.css"
+}

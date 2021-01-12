@@ -1,0 +1,25 @@
+.header {
+  margin-top: 80px;
+}
+
+.header .row .col-md-10 h1 {
+  font-family: 'bebasNeue';
+  font-size: 96px;
+  color: #1A3063;
+  text-align: center;
+  line-height: 109px;
+}
+
+@media (max-width: 992px) {
+  .header .row .col-md-10 h1 {
+    font-size: 85px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header .row .col-md-10 h1 {
+    font-size: 40px;
+    line-height: normal;
+  }
+}
+/*# sourceMappingURL=header.css.map */

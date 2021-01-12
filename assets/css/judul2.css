@@ -1,0 +1,242 @@
+.judul2 {
+  margin-top: 152px;
+}
+
+.judul2 .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 992px) {
+  .judul2 .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
+.judul2 .row .col-md-5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.judul2 .row .col-md-5 p {
+  font-family: 'inter';
+  font-size: 12px;
+  opacity: .8;
+  color: #1A3063;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  margin-top: 23px;
+}
+
+@media (max-width: 992px) {
+  .judul2 .row .col-md-5 p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .judul2 .row .col-md-5 p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+.judul2 .row .col-md-5 .pembungkus1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-top: -5px;
+}
+
+.judul2 .row .col-md-5 .pembungkus1 .kotak {
+  border: 6px solid #ECF3FC;
+  width: 100px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 768px) {
+  .judul2 .row .col-md-5 .pembungkus1 .kotak {
+    height: 80px;
+  }
+}
+
+.judul2 .row .col-md-5 .pembungkus1 .kotak h1 {
+  font-family: 'bebasNeue';
+  font-size: 48px;
+  color: #1A3063;
+  margin: 0;
+}
+
+@media (max-width: 1200px) {
+  .judul2 .row .col-md-5 .pembungkus1 .kotak h1 {
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .judul2 .row .col-md-5 .pembungkus1 .kotak h1 {
+    font-size: 28px;
+    padding: 0 15px;
+  }
+}
+
+.judul2 .row .col-md-5 .pembungkus1 .pembungkus2 {
+  margin-left: 48px;
+}
+
+@media (max-width: 768px) {
+  .judul2 .row .col-md-5 .pembungkus1 .pembungkus2 {
+    margin-left: 30px;
+  }
+}
+
+.judul2 .row .col-md-5 .pembungkus1 .pembungkus2 h1 {
+  font-family: 'bebasNeue';
+  font-size: 48px;
+  color: #1A3063;
+  line-height: 61px;
+  width: 300px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .judul2 .row .col-md-5 .pembungkus1 .pembungkus2 h1 {
+    font-size: 32px;
+    width: 100%;
+    line-height: normal;
+  }
+}
+
+.judul2 .row .col-md-7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .judul2 .row .col-md-7 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.judul2 .row .col-md-7 .kotak {
+  background-color: #FBFCFF;
+  width: 95%;
+  height: 202px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 992px) {
+  .judul2 .row .col-md-7 .kotak {
+    width: 100%;
+    margin-top: 30px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .judul2 .row .col-md-7 .kotak {
+    width: 94%;
+    height: auto;
+    margin-top: 20px;
+  }
+}
+
+.judul2 .row .col-md-7 .kotak .text {
+  width: 87%;
+}
+
+@media (max-width: 768px) {
+  .judul2 .row .col-md-7 .kotak .text {
+    padding: 20px 4px;
+  }
+}
+
+.judul2 .row .col-md-7 .kotak .text h2 {
+  font-family: 'bebasNeue';
+  font-size: 32px;
+  color: #1A3063;
+  letter-spacing: 0.01em;
+  position: relative;
+}
+
+.judul2 .row .col-md-7 .kotak .text h2::before {
+  content: '';
+  width: 4px;
+  height: 24px;
+  background-color: #1A3063;
+  position: absolute;
+  top: 45%;
+  left: -15px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.judul2 .row .col-md-7 .kotak .text p {
+  font-family: 'inter';
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  opacity: 0.8;
+}
+
+@media (max-width: 992px) {
+  .judul2 .row .col-md-7 .kotak .text p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .judul2 .row .col-md-7 .kotak .text p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+/*# sourceMappingURL=judul2.css.map */

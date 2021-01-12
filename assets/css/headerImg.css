@@ -1,0 +1,110 @@
+.header-img {
+  margin-top: 80px;
+  position: relative;
+}
+
+.header-img .row .col-md-12 {
+  background-image: url("../img/Header 1.svg");
+  height: 645px;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 1200px) {
+  .header-img .row .col-md-12 {
+    height: 550px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  .header-img .row .col-md-12 {
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-img .row .col-md-12 {
+    height: 300px;
+    margin: auto;
+  }
+}
+
+.header-img .scroll-down-left {
+  position: absolute;
+  top: 50%;
+  left: -8.7%;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  font-family: 'bebasNeue';
+  font-size: 17px;
+  letter-spacing: 0.06em;
+  color: #1A3063;
+  font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+  .header-img .scroll-down-left {
+    left: -9%;
+  }
+}
+
+@media (max-width: 992px) {
+  .header-img .scroll-down-left {
+    left: -12%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-img .scroll-down-left {
+    font-size: 13px;
+    left: -6.5%;
+  }
+}
+
+.header-img .scroll-down-left img {
+  margin-right: 9px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.header-img .scroll-down-right {
+  position: absolute;
+  top: 50%;
+  right: -8.7%;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  font-family: 'bebasNeue';
+  font-size: 17px;
+  letter-spacing: 0.06em;
+  color: #1A3063;
+  font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+  .header-img .scroll-down-right {
+    right: -9%;
+  }
+}
+
+@media (max-width: 992px) {
+  .header-img .scroll-down-right {
+    right: -12%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-img .scroll-down-right {
+    font-size: 13px;
+    right: -6.5%;
+  }
+}
+
+.header-img .scroll-down-right img {
+  margin-right: 9px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+/*# sourceMappingURL=headerImg.css.map */

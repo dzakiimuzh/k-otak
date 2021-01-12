@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+  .navbar {
+    padding-top: 30px !important;
+  }
+}
+
+.navbar .container .navbar-brand {
+  font-family: 'bebasNeue';
+  font-size: 33px;
+}
+
+.navbar .container .collapse .navbar-nav .nav-link {
+  font-family: 'rubik';
+  font-size: 14px;
+}
+
+.navbar .container .collapse .navbar-nav .active {
+  color: #1A3063;
+}
+/*# sourceMappingURL=navbar.css.map */

@@ -1,0 +1,205 @@
+.judul2 {
+    margin-top: 152px;
+
+    .row {
+        display: flex;
+        align-items: center;
+
+        @media (max-width: 992px) {
+
+            flex-direction: column;
+            align-items: flex-start;
+
+        }
+
+        .col-md-5 {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+
+            p {
+                font-family: 'inter';
+                font-size: 12px;
+                opacity: .8;
+                color: #1A3063;
+                line-height: 22px;
+                letter-spacing: 0.01em;
+                margin-top: 23px;
+
+                @media (max-width: 992px) {
+
+                    font-size: 16px;
+                    line-height: 25px;
+
+                }
+
+                @media (max-width: 768px) {
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+            }
+
+            .pembungkus1 {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                margin-top: -5px;
+
+                .kotak {
+                    border: 6px solid #ECF3FC;
+                    width: 100px;
+                    height: 100px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    @media (max-width: 768px) {
+
+                        height: 80px;
+
+                    }
+
+                    h1 {
+                        font-family: 'bebasNeue';
+                        font-size: 48px;
+                        color: #1A3063;
+                        margin: 0;
+
+
+                        @media (max-width: 1200px) {
+
+                            padding: 0 15px;
+
+                        }
+
+                        @media (max-width: 768px) {
+
+                            font-size: 28px;
+                            padding: 0 15px;
+
+                        }
+
+                    }
+                }
+
+                .pembungkus2 {
+                    margin-left: 48px;
+
+                    @media (max-width: 768px) {
+
+                        margin-left: 30px;
+
+                    }
+
+                    h1 {
+                        font-family: 'bebasNeue';
+                        font-size: 48px;
+                        color: #1A3063;
+                        line-height: 61px;
+                        width: 300px;
+                        margin-bottom: 0;
+
+                        @media (max-width: 768px) {
+
+                            font-size: 32px;
+                            width: 100%;
+                            line-height: normal;
+
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .col-md-7 {
+            display: flex;
+            justify-content: flex-end;
+            padding: 0;
+
+            @media (max-width: 768px) {
+
+                justify-content: center;
+
+            }
+
+            .kotak {
+                background-color: #FBFCFF;
+                width: 95%;
+                height: 202px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+
+                @media (max-width: 992px) {
+
+                    width: 100%;
+                    margin-top: 30px;
+                    height: 300px;
+
+                }
+
+                @media (max-width: 768px) {
+
+                    width: 94%;
+                    height: auto;
+                    margin-top: 20px;
+
+                }
+
+
+                .text {
+                    width: 87%;
+
+                    @media (max-width: 768px) {
+
+                        padding: 20px 4px;
+
+                    }
+
+                    h2 {
+                        font-family: 'bebasNeue';
+                        font-size: 32px;
+                        color: #1A3063;
+                        letter-spacing: 0.01em;
+                        position: relative;
+
+                        &::before {
+                            content: '';
+                            width: 4px;
+                            height: 24px;
+                            background-color: #1A3063;
+                            position: absolute;
+                            top: 45%;
+                            left: -15px;
+                            transform: translateY(-50%);
+
+                        }
+                    }
+
+                    p {
+                        font-family: 'inter';
+                        font-size: 12px;
+                        line-height: 22px;
+                        letter-spacing: 0.01em;
+                        opacity: 0.8;
+
+                        @media (max-width: 992px) {
+
+                            font-size: 16px;
+                            line-height: 25px;
+
+                        }
+
+                        @media (max-width: 768px) {
+                            font-size: 14px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

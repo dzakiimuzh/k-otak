@@ -1,0 +1,128 @@
+.container1 {
+  margin-top: 80px;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .container1 .row .col-md-7 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container1 .row .col-md-7 img {
+    width: 450px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container1 .row .col-md-7 img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container1 .row .col-md-7 img {
+    width: 270px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container1 .row .col-md-5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container1 .row .col-md-5 img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container1 .row .col-md-5 img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container1 .row .col-md-5 img {
+    width: 270px;
+  }
+}
+
+.container1 .scroll-down-left {
+  position: absolute;
+  top: 30%;
+  left: -8.7%;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  font-family: 'bebasNeue';
+  font-size: 17px;
+  letter-spacing: 0.06em;
+  color: #1A3063;
+  font-weight: 400;
+}
+
+@media (max-width: 992px) {
+  .container1 .scroll-down-left {
+    left: -12%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container1 .scroll-down-left {
+    font-size: 13px;
+    left: -6.5%;
+  }
+}
+
+.container1 .scroll-down-left img {
+  margin-right: 9px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.container1 .scroll-down-right {
+  position: absolute;
+  top: 30%;
+  right: -8.7%;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  font-family: 'bebasNeue';
+  font-size: 17px;
+  letter-spacing: 0.06em;
+  color: #1A3063;
+  font-weight: 400;
+}
+
+@media (max-width: 992px) {
+  .container1 .scroll-down-right {
+    right: -12%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container1 .scroll-down-right {
+    font-size: 13px;
+    right: -6.5%;
+  }
+}
+
+.container1 .scroll-down-right img {
+  margin-right: 9px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+/*# sourceMappingURL=container1.css.map */

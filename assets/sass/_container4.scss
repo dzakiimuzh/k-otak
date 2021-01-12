@@ -1,0 +1,168 @@
+.container4 {
+    margin-top: 58px;
+
+    .row {
+        @media (max-width: 992px) {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        .col-md-4 {
+            @media (max-width: 992px) {
+
+                margin-bottom: 50px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+            }
+
+            @media (max-width: 768px) {
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 50px;
+
+            }
+
+            img {
+                @media (max-width: 992px) {
+
+                    width: 500px;
+
+                }
+
+                @media (max-width: 768px) {
+
+                    width: 270px;
+
+                }
+            }
+
+            .wrap {
+                margin-top: 30px;
+                height: 91px;
+                display: flex;
+
+
+                @media (max-width: 992px) {
+
+                    width: 500px;
+
+                }
+
+                @media (max-width: 768px) {
+
+                    width: 270px;
+
+                }
+
+                .kotak {
+                    background-color: #EFF4FF;
+                    width: 110px;
+                    height: 91px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    @media (max-width: 768px) {
+
+                        width: 90px;
+                        height: 75px;
+
+                    }
+
+                    h1 {
+                        font-family: 'bebasNeue';
+                        font-size: 30px;
+                        color: #1A3063;
+                        margin: 0;
+                        letter-spacing: 0.02em;
+
+
+                        @media (max-width: 992px) {
+
+                            font-size: 35px;
+
+                        }
+
+                        @media (max-width: 768px) {
+
+                            font-size: 25px;
+
+                        }
+
+                    }
+                }
+
+                .text {
+                    margin-left: 25px;
+
+                    .tanggal {
+                        p {
+                            font-size: 14px;
+                            font-family: 'bebasNeue';
+                            color: #1A3063;
+                            opacity: .5;
+                            letter-spacing: 0.05em;
+                        }
+
+                        @media (max-width: 992px) {
+
+                            font-size: 16px;
+
+                        }
+
+                        @media (max-width: 768px) {
+                            font-size: 14px;
+                            line-height: 24px;
+                        }
+                    }
+
+                    .header {
+                        h1 {
+                            font-family: 'bebasNeue';
+                            font-size: 24px;
+                            color: #1A3063;
+                            letter-spacing: 0.03em;
+                            line-height: 34px;
+                            width: 88%;
+                            margin-top: -75px;
+
+
+                            @media (max-width: 992px) {
+
+                                font-size: 27px;
+
+                            }
+
+                            @media (max-width: 768px) {
+
+                                width: 100%;
+                                line-height: normal;
+                                font-size: 21px;
+
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+
+        &:nth-child(2) {
+            margin-top: 70px;
+
+            @media (max-width: 768px) {
+
+                margin-top: 0;
+
+            }
+
+        }
+    }
+}

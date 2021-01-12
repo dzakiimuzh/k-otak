@@ -1,0 +1,136 @@
+.container1 {
+    margin-top: 80px;
+    position: relative;
+
+    .row {
+
+        .col-md-7 {
+
+            @media (max-width: 768px) {
+
+                display: flex;
+                justify-content: center;
+
+            }
+
+            img {
+
+                @media (max-width: 1200px) {
+
+                    width: 450px;
+
+                }
+
+                @media (max-width: 992px) {
+
+                    width: 100%;
+                }
+
+                @media (max-width: 768px) {
+
+                    width: 270px;
+
+                }
+
+            }
+        }
+
+        .col-md-5 {
+            @media (max-width: 768px) {
+
+                display: flex;
+                justify-content: center;
+                margin-top: 30px;
+
+            }
+
+            img {
+
+                @media (max-width: 1200px) {
+
+                    width: 400px;
+
+                }
+
+                @media (max-width: 992px) {
+
+                    width: 100%;
+
+                }
+
+                @media (max-width: 768px) {
+
+                    width: 270px;
+
+                }
+            }
+        }
+
+    }
+
+    .scroll-down-left {
+        position: absolute;
+        top: 30%;
+        left: -8.7%;
+        transform: rotate(-90deg);
+        font-family: 'bebasNeue';
+        font-size: 17px;
+        letter-spacing: 0.06em;
+        color: #1A3063;
+        font-weight: 400;
+
+
+        @media (max-width: 992px) {
+
+            left: -12%;
+
+        }
+
+        @media (max-width: 768px) {
+
+            font-size: 13px;
+            left: -6.5%;
+
+        }
+
+        img {
+            margin-right: 9px;
+            transform: rotate(90deg);
+
+        }
+
+    }
+
+    .scroll-down-right {
+        position: absolute;
+        top: 30%;
+        right: -8.7%;
+        transform: rotate(-90deg);
+        font-family: 'bebasNeue';
+        font-size: 17px;
+        letter-spacing: 0.06em;
+        color: #1A3063;
+        font-weight: 400;
+
+
+        @media (max-width: 992px) {
+
+            right: -12%;
+
+        }
+
+        @media (max-width: 768px) {
+
+            font-size: 13px;
+            right: -6.5%;
+
+        }
+
+        img {
+            margin-right: 9px;
+            transform: rotate(90deg);
+
+        }
+
+    }
+}
